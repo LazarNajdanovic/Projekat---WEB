@@ -1,0 +1,933 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle, rgba(240,196,152,1) 39%, rgba(196,146,136,1) 100%);
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    /*background-color: #efc8b1;*/
+    /* background: radial-gradient(circle, rgba(255,208,161,1) 64%, rgba(163,123,115,1) 100%); */
+    /* background: radial-gradient(circle, rgba(247,214,181,1) 57%, rgba(163,123,115,1) 100%); */
+    /* background: radial-gradient(circle, rgba(240,196,152,1) 49%, rgba(212,165,155,1) 100%); */
+    height: 90%;
+}
+
+.Strana{
+    /*background-color: rgba(0, 253, 21, 0.733);*/
+    /*background-color: #efc8b1;*/
+    background: radial-gradient(circle, rgba(240,196,152,1) 39%, rgba(196,146,136,1) 100%);
+    display:  flex;
+    flex-direction: column;
+    font-size: 0.9w;
+    width: auto;
+    height: 100%;
+}
+
+.lblNaslovStrane{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 3rem;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+}
+.selektovan{
+    background-color: #D34F73FF;
+}
+.neselktovan{
+    background-color: #efc8b1;
+    /*background: radial-gradient(circle, rgba(240,196,152,1) 39%, rgba(196,146,136,1) 100%); */
+}
+.divNaslov{
+    /*background-color: rgb(141, 102, 94);*/
+    background: linear-gradient(124deg, rgba(144,96,86,1) 0%, rgba(154,98,114,1) 50%, rgba(158,111,102,1) 100%);
+    display: flex;
+    height: 13%;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+.divNaslovKurs{
+    /*background-color: rgb(141, 102, 94);*/
+    /*background: linear-gradient(90deg, rgba(96,58,63,1) 0%, rgba(111,52,40,1) 50%, rgba(96,58,63,1) 100%);*/
+    background: linear-gradient(124deg, rgba(144,96,86,1) 0%, rgba(154,98,114,1) 50%, rgba(158,111,102,1) 100%);
+    /*background: linear-gradient(124deg, rgba(144,96,86,1) 0%, rgba(154,101,116,1) 50%, rgba(157,102,92,1) 100%);*/
+    display: flex;
+    height: 11%;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+
+.divNaslovStrane{
+    /*background-color: rgb(100, 58, 64);*/
+    /*background: radial-gradient(circle, rgba(177,90,115,1) 11%, rgba(62,40,43,1) 100%);*/
+    background: radial-gradient(circle, rgba(138,58,80,1) 11%, rgba(62,40,43,1) 100%);
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto;
+    width: 100%;
+    height: 60%;
+}
+.divFooter{
+    background-color: rgb(100, 58, 64);
+    display: flex;
+    flex-wrap: wrap; 
+    flex-grow: 2;
+    margin-top: 10px;
+}
+.lblFooter{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2%;
+}
+.Uvod{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    align-self: center;
+    width : 100%;
+    height: 15%;
+    /*background-color: rgba(5, 221, 23, 0.733);*/
+    /*background-color: rgb(184, 140, 131); */
+}
+
+.SelectSkola{
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 40%;
+    width: 100%;
+}
+.divZaLabeleSkola{
+    display: flex;
+    flex-grow: 0.1;
+    width: 10%;
+    justify-content: center;
+}
+.lblSkola{
+    /*background-color: #DBBEA1FF;*/
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    width: 100%;
+}
+.divZaSelectSkola{
+    display: flex;
+    align-items: stretch;
+    width: 90%;
+    flex: 0 1 auto;
+}
+.selectSkola{
+    width: 100%;
+    font-size: 20px;
+}
+/* PRVI DEO --- OVA DVA DUGMETA ZA KLIJENTA I UPRAVNIKA*/
+.prviDeo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    justify-content: center;
+    width : 100%;
+    height: 70%;
+    /*background-color: rgba(2, 173, 16, 0.733);*/
+}
+
+.divProstorDugmica{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70%;
+    justify-content: space-evenly;
+}
+
+.btnUpravnik{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+.btnKlijent{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+/* ================================================================  */
+/* OVDE KRECE DRUGI DEO OTVARANJE */
+/* ================================================================  */
+
+.drugiDeo{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    width : 100%;
+    height: 210%;
+}
+
+/* Deo za logovanje ako je u pitanju upravnik */
+.divDeoLogovanje{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80%;
+}
+
+.divLogovanje{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 80%;
+    width: 40%;
+}
+.divNaslovLogovanje{
+    /*background-color: rgb(141, 102, 94);*/
+    background: linear-gradient(124deg, rgba(144,96,86,1) 0%, rgba(154,98,114,1) 50%, rgba(158,111,102,1) 100%);
+    display: flex;
+    height: 20%;
+    justify-content: center;
+    flex: 0 1 auto;
+}
+.divEmail{
+    display: flex;
+    height: 25%;
+}
+.divPassword{
+    display: flex;
+    height: 25%;
+    
+}
+.divPrijaviSe{
+    display: flex;
+    height: 30%;
+    width: 100%;
+}
+.tbxEmail, .tbxPassword{
+    display: flex;
+    width: 100%;
+    font-size: 20px;
+}
+.btnPrijaviSe{
+    width: 100%;
+    font-size: 22px;
+    font-weight: 550;
+}
+.lblNaslov{
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+}
+
+
+.divClanskaKnjizica,.divButtonPretrazi, .divKurs, .divButtonUpisati, .divDvaDugmeta{
+    display: flex;
+    height: 20%;
+}
+.divClanskaKnjizicaUcenik,.divKursUcenik,.divButtonUpisatiUcenik,.divDvaDugmetaUcenik{
+    display: flex;
+    flex-direction: row;
+}
+.btnPrikazUcenik{
+    width: 100%;
+}
+.divButtonPretraziUcenika,.divButtonPrikaziUcenike,.divButtonObrisiUcenika,.divButtonIspiti{
+    width: 100%;
+}
+.divButtonUpisatiUcenik,.divButtonPrikaziUcenike,.divButtonPretraziUcenika,.divClanskaKnjizicaUcenik{
+    height: 16%;
+}
+.divKursUcenik{
+    height: 14%;
+}
+.divDvaDugmetaUcenik{
+    height: 18%;
+}
+
+.btnObrisiUcenika,.btnPretrazi,.btnPrikazUcenik{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.lblClanskaKnjizicaUcenik{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    height: 700;
+    width: 50%;
+}
+
+.lblClanskaKnjizica{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 7px;
+    font-size: 18px;
+    height: 700;
+}
+.lblKurseviKursevi{
+    padding-top: 18px;
+    font-size: 20px; 
+}
+.lblKursevi{
+    padding-top: 7px;
+    font-size: 20px; 
+}
+.divZaLabeluKursa{
+    padding-top: 10px;
+}
+.selectKurs,.tbxClanskaKnjiz{
+    font-size: 17px;
+}
+
+/*DEO ZA UPRAVNIKA*/
+.divRButton{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.rButton{
+    height:20px; 
+    width:20px; 
+}
+.divButtonPrikazi{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;  
+}
+.divOpcije{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+    height: 100%;
+}
+.divOpcijePredavac,.divOpcijeUcenik{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%;
+    height: 80%;
+
+}
+.divTabela{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    height: 100%;
+    flex-grow: 4;
+    overflow-x: auto;
+}
+.divTabelaPredavac,.divTabelaUcenik{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 30%;
+    height: 100%;
+    flex-grow: 4;
+    overflow-x: auto;
+}
+
+
+table, tr, th, td{
+    border: 1px solid black;
+    font-size: 20px;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    font-size: 20px;
+    padding-left: 15px;
+    justify-content: center;
+}
+.tdClanskaKnjizica{
+    padding-left: 50px
+}
+.tdOcena{
+    padding-left: 30px
+}
+.tdImeRod{
+    padding-left: 35px
+}
+.ime,.prezime{
+    padding-left: 8px;
+    padding-right: 5px;
+}
+.imeRod{
+   padding-left: 35px;
+}
+.clanskaKnjiz{
+    padding-left: 50px;
+}
+.ocena{
+    padding-left: 30px;
+}
+.sertifikat{
+    padding-left: 40px;
+}
+.jmbg{
+    padding-left: 30px;
+}
+.naziv{
+    padding-left: 20px;
+}
+.divKurs{
+    display: flex;
+    flex-direction: row;
+}
+.divZaSelectKursa, .divButtonUpisati{
+    display: flex;
+    width: 100%;
+}
+.btnPretrazi, .btnPrikaz,.btnUpisati,.btnUpisatiUcenika, .btnPrikazi, .btnPrikaziUcenike, .selectKurs, .btnObrisi, .btnIspisi, .btnPrikazPredavac{
+    width: 100%;
+}
+.tbxClanskaKnjizicaUcenik{
+    width: 60%;
+    font-size: 18px;
+}
+.grupa{
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
+    width: 100%;
+    height: 8%;
+    margin-bottom: 3px; 
+}
+.divDeoUpravnik{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 120%; 
+}
+.divRB{
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+    border-radius: 50%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.rbIzbor{
+    height:15px; 
+    width:15px;
+}
+.seKurs{
+    font-size: 20px;
+}
+.divDrugiDeo{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+    height: 90%;  
+    flex-grow: 2;
+}
+.divGrupa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 70%;
+    margin-top: 3px;
+}
+.divDodaj{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 2px;
+    width: auto;
+    height: 100%;
+}
+.divDodajPredavac,.divDodajUcenik{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 5px;
+    padding-right: 2px;
+    width: 30%;
+    height: 80%;
+}
+
+.divNaslovPredavac{
+    /*background-color: rgb(141, 102, 94);*/
+    background: linear-gradient(124deg, rgba(144,96,86,1) 0%, rgba(154,98,114,1) 50%, rgba(158,111,102,1) 100%);
+    display: flex;
+    justify-content: center;
+    flex: 0 1 auto;
+    height: 15%;
+}
+.divButton{
+    display: flex;
+    height: 18%;
+}
+.divButtonDodajKurs{
+    display: flex;
+    height: 10%;
+}
+.divIme,.divPrezime,.divImeRoditelja,.divJMBG,.divSertifikat{
+    height: 15%;
+}
+.btnIspisi{
+    font-size: 20px;
+}
+.btnUpisatiUcenika, .btnPrikaziUcenike{
+    font-size: 20px;
+}
+
+.divIme,.divPrezime,.divImeRoditelja,.divClanskaKnjizica, .divKurs, .divJMBG,.divSelectKursa {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.divButtonIzmeni{
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+.divButtonIzmeniKurs{
+    display: flex;
+    width: 100%;
+    height: 10%;
+}
+.divButtonPrikazati,.divSelectKursa,.divButtonPrikaz,.divButtonDodati{
+    display: flex;
+    width: 100%;
+    height: 15%;
+}
+.divButtonObrisi{
+    display: flex;
+    width: 100%;
+    height: 18%;
+}
+
+.lblIme, .lblPrezime, .lblImeRoditelja, .lblClanskaKnjizica,.lblJMBG, .lblSertifikat,.lblSelectKursa{
+    width: 45%;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+.tbxIme,.tbxPrezime,.tbxImeRoditelja,.tbxClanskaKnjizica,.tbxClanskaKnjiz, .tbxJMBG{
+    width: 55%;
+    font-size: 18px;
+}
+.divZaSelectKursa, .divButtonUpisati, .divDvaDugmeta, .divButtonIspisi {
+    display: flex;
+    width: 100%;
+}
+
+.btnPretrazi, .btnPrikaz, .btnDodati,.btnIzmeni, .selectKurs, .btnIspisi, .seKurs{
+    width: 100%;
+}
+.btnIzmeniKurs{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.divRadioButton{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.rbSertifikat{
+    height:14px; 
+    width:14px;
+}
+.btnUpisati{
+    width: 40%;
+}
+.btnPrikaziUcenike{
+    width: 60%;
+}
+
+.divNaziv{
+    display: flex;
+}
+
+.divIzbor{
+    /*background-color: rgb(161, 120, 112);*/
+    background: linear-gradient(124deg, rgba(144,96,86,1) 0%, rgba(154,98,114,1) 50%, rgba(158,111,102,1) 100%);
+    display: flex;
+    flex-wrap: wrap;
+    height: 8%;
+    font-size: 22px;
+    padding-top: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.lblIzbor{
+    align-items: center;
+}
+.divPodaci{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    width: 25%;
+}
+.lblNaslovPredavac{
+    font-size: 22px;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+}
+.divKursevi{
+    display: flex;
+    flex-direction: row;
+    height: 11%;
+}
+.selectKursa{
+    font-size: 18px;
+}
+.divRadioButton,.divSertifikat{
+    display: flex;
+    flex-direction: row;
+}
+
+.divDvaDugmeta{
+    display: flex;
+    flex-direction: row;
+}
+.lblNaslovKurs{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.lblNazivKursa,.lblVreme,.lblBrojUcenika,.lblCenaKurs{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 20px;
+}
+.lblCenaKurs{
+    font-size: 20px;
+}
+.tbxNazivKursa{
+    
+    width: auto;
+}
+.divOcena{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+.lblOcena{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.btnOcena,.btnIzmeni,.btnDodatiKurs,.btnDodajKurs{
+    font-size: 20px;
+    height: 100%;
+}
+.btnStatistika{
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+}
+.divStatistika{
+    height: 10%;
+    width: 100%;
+}
+.divButtonOcena{
+    height: 10%;
+}
+ /* divNazivKursa i sve ostalo msm da nece da mi treba */
+.divNazivKursa, .divCena, .divVreme, .divBrojUcenika, .divSelectKurs, .divZaSelectKursa{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.divNazivKursa,.divCena,.divBrojUcenika{
+    height: 10%;
+}
+.lblSelect{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+}
+.divSelectKurs{
+    height: 10%;
+}
+.selectKursNov{
+    font-size: 17px;
+}
+.divButtonDodatiKurs{
+    height: 10%;
+}
+.btnDodatiKurs{
+    height: 100%;
+}
+.selectKursNov,.divButtonDodatiKurs, .btnDodatiKurs, .divButtonOcena, .btnOcena, .selectKursa{
+    width: 100%;
+}
+.divCenaKursa, .divVremeKursa, .divTrenutniBrojUcenika{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 10%;
+}
+.lblVremeKursa, .lblTrenutniBrojUcenika, .btnPrikaziUcenike, .btnPrikaziPredavace{
+    width: 100%;
+}
+.lblNazivKursa, .lblCenaKurs, .lblVreme, .lblBrojUcenika, .lblOcena{
+    width: 45%;
+}
+.tbxNazivKursa, .tbxCena, .tbxVreme, .tbxBrojUcenika, .tbxOcena{
+    font-size: 18px;
+    width: 55%;
+}
+.divDugme{
+    height: 12%;
+}
+.lblCena, .lblVremeKursa,.lblTrenutniBrojUcenika{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    width: 100%;
+}
+.divZaLabeluKursaKursevi{
+    display: flex;
+    align-items: center;
+}
+.lblKurseviKurs{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* stilovi neki za dugmice */
+.btnDodajKurs{
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.btnDodaj{
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 100%;
+}
+.btnDodaj:hover {
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+.btnPrijaviSe{
+    border-radius: 7px;
+    border: 1px solid black;
+    width: 100%;
+}
+.btnPrijaviSe:hover{
+    box-shadow: 0 15px 20px 0 rgba(0,0,0,0.30),0 30px 50px 0 rgba(0,0,0,0.25);
+}
+
+.btnPrikazForme{
+    font-size: 22px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.btnPrikazForme:hover {
+   
+    background-color: #c59f88;
+    color: black;
+}
+
+.btnPrikaz{
+    border-radius: 7px;
+    border: 1px solid black;
+}
+
+.btnPrikaz:hover{
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.24),0 10px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btnPrikazPredavac{
+    width: 100%;
+}
+
+.btnIspisi:hover, .btnObrisi:hover, .btnPrikaziUcenike:hover,.btnUpisatiUcenika:hover, .btnPrikazPredavac:hover, .btnUpisati:hover, .btnPretrazi:hover {
+    background-color: #e7e7e7;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.btnPrikazUcenik:hover,.btnObrisiUcenika:hover{
+    background-color: #e7e7e7;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.btnPrikazati:hover, .btnPrikazi:hover,.btnIzmeniKurs:hover, .btnDodati:hover, .btnIzmeni:hover, .btnDodatiKurs:hover, .btnOcena:hover, .btnStatistika:hover{
+    background-color: #e7e7e7;
+    border-radius: 7px;
+    border: 2px solid black;
+}
+.btnIzmeni,.btnPrikazati,.btnPrikazi,.btnDodati,.btnObrisi,.btnDodaj{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+}
+.divButton{
+    padding-bottom: 0.5%;
+}
+
+/* Deo za statistiku */
+.divGlavni{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    height: 100%;    
+}
+.div_kurs{
+    display: flex;
+    flex-direction: column-reverse;  
+    width: 80px;
+    height: 70%;
+    margin: 15px;
+}
+.divText{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70px;
+    height: 80px;
+}
+.divGrafik{
+    display: flex;
+    flex-direction: column-reverse;  
+    width: auto;
+    height: 150px;
+    border: 1px solid black;
+}
+.divCounter{
+    width: auto;
+    height: 5px;
+    background-color: #D34F73FF;
+}
+
+@media only screen and (max-width: 1000px){
+    .divPodaci{
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .lblSkola{
+        font-size: 22px;
+    }
+    .btnPrikazati,.btnPrikazUcenik,.btnPrikaziUcenike,.btnUpisatiUcenika,.btnIspisi,.btnObrisiUcenika{
+        font-size: 18px;
+    }
+    .divTabelaPredavac{
+        width: 400px;
+    }
+    
+    .lblNaslovPredavac{
+        font-size: 20px;
+    }
+    .lblNaslov{
+        font-size: 18px;
+    }
+    .divTabelaUcenik{
+        width: 340px;
+    }
+    .divOpcije{
+        width: 350px;
+    }
+    .divPodaci{
+        width: 300px;
+        height: 60%;
+    }
+    .lblIzbor{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .lblNaslovStrane{   
+        font-size: 30px;
+    }
+    .lblSkola{
+        font-size: 20px;
+    }
+    .lblNaslovPredavac{
+        font-size: 18px;
+    }
+    .divDodajUcenik,.divOpcijeUcenik,.divOpcijePredavac,.divDodajPredavac{
+        width: 300px;
+    }
+    .divTabelaUcenik{
+        width: 300px;
+    }
+    .lblNaslov{
+        font-size: 20px;
+    }
+    .divOpcije{
+        width: 320px;
+    }
+    .divPodaci{
+        width: 320px;
+    }
+    .lblCena,.lblVremeKursa,.lblTrenutniBrojUcenika,.lblIzbor{
+        font-size: 18px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 450px) {
+    .lblNaslovStrane{
+        font-size: 25px;
+    }
+    .lblSkola{
+        font-size: 16px;
+    }
+    .grupa{
+        width: 350px;
+    }
+    .lblIzbor{
+        font-size: 16px;
+    }
+    .divDodajUcenik,.divOpcijeUcenik{
+        width: 300px;
+    }
+    .divLogovanje{
+        width: 180px;
+    }
+    
+}

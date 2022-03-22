@@ -1,0 +1,59 @@
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\appsettings.json
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\WEB - NEW.exe
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\WEB - NEW.deps.json
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\WEB - NEW.runtimeconfig.json
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\WEB - NEW.runtimeconfig.dev.json
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\WEB - NEW.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\ref\WEB - NEW.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\WEB - NEW.pdb
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Humanizer.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.Identity.Client.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.csproj.AssemblyReference.cache
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.AssemblyInfoInputs.cache
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.AssemblyInfo.cs
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.csproj.CoreCompileInputs.cache
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\staticwebassets\WEB - NEW.StaticWebAssets.Manifest.cache
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\staticwebassets\WEB - NEW.StaticWebAssets.xml
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\scopedcss\bundle\WEB - NEW.styles.css
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.RazorTargetAssemblyInfo.cache
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.csproj.CopyComplete
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\ref\WEB - NEW.dll
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.pdb
+C:\Users\Najdanovic\Desktop\WEB - NEW\obj\Debug\net5.0\WEB - NEW.genruntimeconfig.cache
